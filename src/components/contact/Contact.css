@@ -1,0 +1,62 @@
+.container.contact_container{
+   margin-bottom: 5rem;
+
+}
+h2.heading{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact_options{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    gap: 4rem;
+}
+
+
+
+.contact_option{
+    background: var(--color-primary);
+    text-align: center;
+    border-radius: 2rem;
+    transition: var(--transition);
+    border: 2px solid transparent;
+    padding: 1.5rem;
+    height: 150px;
+    width: 225px;
+    padding-top: 3rem;
+}
+
+.contact_option:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+#contact h2{
+    margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .contact_options{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      
+
+}
+}
+    /* Small devices (phone) */
+
+@media screen and (max-width: 600px) {
+    .contact_options{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        
+
+}
+}

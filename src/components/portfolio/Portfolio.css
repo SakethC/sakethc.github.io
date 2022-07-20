@@ -1,0 +1,193 @@
+.project_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', serif;
+    color: rgb(249, 249, 249);
+    margin-bottom: 20px;
+}
+ h3.headings{
+    margin-top: 320px;
+}
+
+h3.headings5{
+    margin-top: 320px;
+    font-size: 16px;
+  opacity: 200;
+}
+h3.headings6{
+    margin-top: 270px;
+    font-size: 16px;
+}
+.project{
+
+    background: url('../../assets/netflix.png');
+    width: 250px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding: 2rem; */
+    /* border-radius: 2rem; */
+    border: 1px solid black;
+    transition: var(--transition);
+}
+.project:hover{
+    /* background: blur; */
+    /* filter: blur(8px); */
+    transition: var(--transition);
+    cursor: default;
+    
+}
+.project2{
+
+    background: url('../../assets/inventory.jpg');
+    width: 250px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    /* padding: 2rem; */
+    /* border-radius: 2rem; */
+    border: 1px solid black;
+    transition: var(--transition);
+}
+.project2:hover{
+    /* background: transparent; */
+    cursor: default;
+}
+.project3{
+
+    background: url('../../assets/chatbot.jpg');
+    width: 250px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    /* padding: 2rem; */
+    /* border-radius: 2rem; */
+    border: 1px solid black;
+    transition: var(--transition);
+}
+.project3:hover{
+    /* background: transparent; */
+    cursor: default;
+}
+.project4{
+
+    background: url('../../assets/icu.jpeg');
+    width: 250px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    /* padding: 2rem; */
+    /* border-radius: 2rem; */
+    border: 1px solid black;
+    transition: var(--transition);
+}
+.project4:hover{
+    /* background: transparent; */
+    cursor: default;
+}
+.project5{
+
+    background: url('../../assets/sa.png');
+    backdrop-filter: blur(20px);
+    width: 250px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    /* padding: 2rem; */
+    /* border-radius: 2rem; */
+    border: 1px solid black;
+    transition: var(--transition);
+}
+.project5:hover{
+    /* background: transparent; */
+    cursor: default;
+}
+.project6{
+
+    background: url('../../assets/heart.jpeg');
+    width: 250px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    /* padding: 2rem; */
+    /* border-radius: 2rem; */
+    border: 1px solid black;
+    transition: var(--transition);
+}
+.project6:hover{
+    /* background: transparent; */
+    cursor: default;
+}
+
+
+
+/* .member_project{
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1.75rem;
+    height: 200px;
+  
+    border-radius: 0 0 2rem 2rem; 
+    box-shadow:  0 2rem 1rem rgba(0, 0, 0, 0.1); 
+}  */
+h3{
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+/* .member_project h3{
+    text-align: center;
+    font-size: 1rem;
+    color: var(--color-bg);
+
+} */
+
+.project_points{
+    /* padding: 1rem; */
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--color-light);
+    margin-top: 0px;
+    padding: 0px;
+    
+}
+
+h4.project_points{
+    color: #e6b2e4;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .project_container{
+grid-template-columns: 1fr 1fr;
+gap: 2rem;
+    }
+    .project{
+        height: auto;
+    }
+}
+    /* Small devices (phone) */
+
+@media screen and (max-width: 600px) {
+    .project_container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+            }
+
+}
