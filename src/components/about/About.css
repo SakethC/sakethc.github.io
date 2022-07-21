@@ -107,10 +107,13 @@ gap: 0;
 
 @media screen and (max-width: 600px) {
     .about__card{
-        left: auto;
+        left: 25%;
         right: auto;
         grid-template-columns: 1fr 1fr;
         gap: 0;
+            }
+            .about__cards{
+                margin-left: 40px;
             }
             .about__me{
                 width: 66%;
@@ -120,6 +123,17 @@ gap: 0;
                 text-align: center;
             }
             .about__content p{
-                margin: 1.5rem 0;
+                margin: 1.5rem ;
+            }
+            .aboutme{
+                color: rgb(249, 249, 249);
+                font-family: 'Trebuchet MS', serif;
+                font-style:unset;
+                text-align: center;
+                font-size: 40px;
+                margin-bottom: 0;
+                margin-left: 0;
+                height: 15vh;
+
             }
         }
