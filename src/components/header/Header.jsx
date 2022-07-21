@@ -5,6 +5,7 @@ import CTA from './CTA'
 import {MdLocationOn} from 'react-icons/md'
 const header = () => {
   return (
+    <section id='header'>
     <header>
     <div className="container header__container">
       {/* <h5> Hello, I am</h5> */}
@@ -19,6 +20,7 @@ const header = () => {
     {/* <a href= "#contact" className='scroll__down'> Scroll down </a> */}
     </div>
      </header>
+     </section>
   )
 }
 
