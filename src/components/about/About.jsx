@@ -30,7 +30,7 @@ const about = () => {
           </article>
           </div>
         <p>
-        I am Saketh Chamarthi, a Computer Science graduate student from UIC. I am passionate about exploring latest customer oriented technolgy, working with new software and networking with enthusiastic individuals. On a holiday, you can find me laughing at memes, on the sportsfield or at the movies.  
+        I am Saketh Chamarthi, a Computer Science graduate student from UIC. I am passionate about exploring latest customer oriented technology, working with new software and networking with enthusiastic individuals. On a holiday, you can find me laughing at memes, on the sportsfield or at the movies.  
         </p>
 
         {/* <a href="#contact" className='btn btn-primary'> Contact </a> */}
